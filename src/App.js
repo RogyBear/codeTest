@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Add from './components/Add';
+import './static/main.scss';
 
 function App() {
-  return (
-    <div className="App">
-      Test
-    </div>
-  );
+	return (
+		<div className="app">
+			<div className="app__wrapper">
+				<Add />
+			
+			</div>
+		</div>
+	);
 }
 
 export default App;
